@@ -1,0 +1,29 @@
+{
+  "name": "nearley-unparse",
+  "version": "0.0.0",
+  "description": "JavaScript API to \"unparse\" any nearley grammar. Also allows overrides for given grammar rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/nearley-unparse.git"
+  },
+  "keywords": [
+    "nearley",
+    "grammar",
+    "parser",
+    "code-generator"
+  ],
+  "author": "farskipper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/nearley-unparse/issues"
+  },
+  "homepage": "https://github.com/smallhelm/nearley-unparse#readme",
+  "devDependencies": {
+    "nearley": "^2.6.0",
+    "tape": "^4.6.0"
+  }
+}
