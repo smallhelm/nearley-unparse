@@ -4,7 +4,8 @@
   "description": "JavaScript API to \"unparse\" any nearley grammar. Also allows overrides for given grammar rules.",
   "main": "index.js",
   "scripts": {
-    "test": "node tests.js"
+    "build": "nearleyc test-grammar.ne > test-grammar.js",
+    "test": "npm run build && node tests.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   "devDependencies": {
     "nearley": "^2.6.0",
     "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "randexp": "^0.4.3"
   }
 }
