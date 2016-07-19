@@ -1,6 +1,6 @@
 # nearley-unparse
 
-[![build status](https://secure.travis-ci.org/farskipper/nearley-unparse.svg)](https://travis-ci.org/farskipper/nearley-unparse)
+[![build status](https://secure.travis-ci.org/smallhelm/nearley-unparse.svg)](https://travis-ci.org/smallhelm/nearley-unparse)
 
 JavaScript API to "unparse" any nearley grammar. Also allows overrides for given grammar rules.
 
