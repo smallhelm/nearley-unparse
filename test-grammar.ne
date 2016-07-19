@@ -1,6 +1,6 @@
 main -> foo | bar_list
 
-foo -> [a-zA-Z]:+
+foo -> "foo" [0-9]:+
 
 bar_list -> bar
     | bar_list "," bar
